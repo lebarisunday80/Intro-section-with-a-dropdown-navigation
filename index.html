@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lees|intro section with a dropdown navigation</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="menu-container">
+      <input type="checkbox" aria-label="Toggle menu" />
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <a href="#" class="menu-logo">
+        <img src="images/logo.svg" alt="logo" />
+      </a>
+
+      <div class="menu">
+        <ul>
+          <div class="menumobile">
+            <div class="dropdown">
+              <li>
+                <button class="dropbtn" onclick="myFunction()">
+                  Features
+                  <img src="images/icon-arrow-down.svg" alt="arrowdwn" />
+                </button>
+              </li>
+
+              <div class="dropdown-content" id="myDropdown">
+                <li>
+                  <a href=""
+                    ><img src="images/icon-todo.svg" alt="" /> Todo List</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/icon-calendar.svg" alt="" /> Calender</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/icon-reminders.svg" alt="" /> Reminders</a
+                  >
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="images/icon-planning.svg" alt="" /> Planning
+                  </a>
+                </li>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <li>
+                <button class="dropbtn2" onclick="myFunction2()">
+                  Company
+                  <img src="images/icon-arrow-down.svg" alt="arrowdwn" />
+                </button>
+              </li>
+
+              <div class="dropdown-content" id="myDropdown2">
+                <li><a href="">History</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Blog</a></li>
+              </div>
+            </div>
+
+            <ul class="morecontent">
+              <li><a href="">Careers</a></li>
+              <li><a href="">About</a></li>
+            </ul>
+          </div>
+        </ul>
+
+        <ul class="logreg">
+          <li><a href="">Login</a></li>
+          <li>
+            <a><button class="buttonreg">Register</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- EndNavbar -->
+
+    <div class="maincontainer">
+      <div class="containertext">
+        <div class="title1">
+          <h1>Make</h1>
+          <h1>remote work</h1>
+        </div>
+        <div class="title2">
+          <h1>Make remote work</h1>
+        </div>
+        <br />
+        <div class="desc1">
+          <p>
+            Get your team in sync, no matter your location. <br />
+            Streamline processes, create team rituals, and <br />
+            watch productivity soar.
+          </p>
+        </div>
+        <div class="desc2">
+          <p>
+            Get your team in sync, no matter your <br />
+            location. Streamline processes, create <br />
+            team rituals, and watch productivity soar.
+          </p>
+        </div>
+
+        <br />
+        <button class="buttonmain">Learn more</button>
+
+        <div class="clientlogo">
+          <ul>
+            <img src="images/client-databiz.svg" alt="" class="logo" />
+            <img src="images/client-audiophile.svg" alt="" class="logoaudio" />
+            <img src="images/client-meet.svg" alt="" class="logo" />
+            <img src="images/client-maker.svg" alt="" class="logo" />
+          </ul>
+        </div>
+      </div>
+
+      <div class="containerhero">
+        <img
+          src="images/image-hero-desktop.png"
+          width="550"
+          alt="hero"
+          class="image1"
+        />
+        <img
+          src="images/image-hero-mobile.png"
+          alt="heromobile"
+          class="image2"
+        />
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
